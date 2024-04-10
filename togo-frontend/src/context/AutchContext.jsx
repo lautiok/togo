@@ -5,6 +5,9 @@ import Cookies from "js-cookie";
 
 export const AuthContext = createContext()
 
+// api 
+
+
 export const useAuth = () => {
     const context = useContext(AuthContext)
     if (!context) {
