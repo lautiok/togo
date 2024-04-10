@@ -6,7 +6,7 @@ import noteRoutes from "./routes/notes.routes.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 const app = express();
-const port = process.env.EXPRESS_PORT
+const port = process.env.PORT
 
 // middlewares
 app.use(cors({
