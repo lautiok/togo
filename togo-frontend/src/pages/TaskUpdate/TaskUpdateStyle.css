@@ -1,0 +1,21 @@
+.register-form-status {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.register-form-status {
+    background-color: #8079EC;
+}
+
+@media screen and (max-width: 430px) {
+    .task-form-page {
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+        padding: 1rem;
+    }
+
+}

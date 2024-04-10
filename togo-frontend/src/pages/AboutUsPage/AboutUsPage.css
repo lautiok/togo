@@ -1,0 +1,62 @@
+.aboutUS {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 25.2rem;
+}
+
+.contenedor-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 8rem;
+    border-radius: 16px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    background-color: #845FE9;
+}
+
+.contenedor-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 2rem;
+    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 16px;
+    background-color: #8BC49B;
+
+}
+
+@media screen and (max-width: 430px) {
+    .aboutUS {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .contenedor-about {
+        flex-direction: column;
+    }
+
+    .contenedor-logo {
+        padding: 9rem;
+    }
+
+    .contenedor-text {
+        margin-left: 0.4rem;
+        margin-top: 1rem;
+        font-size: 16px;
+        padding: 1rem;
+    }
+}

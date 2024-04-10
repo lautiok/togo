@@ -1,0 +1,66 @@
+/* ContactsStyle.css */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 21.2rem;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    /* Cambiado de 1rem a 0 y eliminado el margen inferior */
+    padding: 2rem;
+    background-color: #8BC49B;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+    color: #313131;
+    margin-top: 0;
+    /* Añadido para eliminar el margen superior */
+}
+
+.contact-input,
+.contact-textarea,
+.contact-button {
+    width: calc(100% - 20px);
+    /* Cambiado de padding a width */
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #c9c9c9;
+    color: #434343;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #cfd4fd;
+}
+
+.contact-button {
+    background-color: #cacaca;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .contact {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+
+}

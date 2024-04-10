@@ -1,0 +1,92 @@
+.task-form-page {
+    display: flex;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-top: 2rem;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task-form-page h1 {
+    color: #313131;
+    /* Color del texto */
+}
+
+.register-task {
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: #8BC49B;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.register-form-task {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form-task input {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #c9c9c9;
+    color: #434343;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.register-form-task input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #cfd4fd;
+}
+
+.register-form-task textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #c9c9c9;
+    color: #434343;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.register-form-task textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #cfd4fd;
+}
+
+.register-form-task button {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #cacaca;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #4d4d4d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+option {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #4d4d4d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}

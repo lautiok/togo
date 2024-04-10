@@ -1,0 +1,148 @@
+.task-page .add-task {
+    background-color: #8079EC;
+    /* Color más vibrante */
+    color: white;
+    border: none;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add-task-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.task-page-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    grid-gap: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+
+/* Agregamos sombreado y bordes suaves */
+.status-container {
+    box-shadow: 0 0 10px 0 rgba(95, 95, 95, 0.2);
+    border: 1px solid #e0e0e0;
+    /* Cambiamos el color del borde */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    padding-bottom: 3rem;
+    /* Ajustamos el espacio inferior */
+    width: 370px;
+    overflow: auto;
+}
+
+/* Cambiamos el color de fondo de las tarjetas */
+.task-card {
+    width: 300px;
+    height: auto;
+    /* Cambiamos a altura automática */
+    /* Color más vibrante */
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Ajustamos el tamaño del texto */
+.task-card h1 {
+    font-size: 20px;
+    /* Reducimos el tamaño del título */
+}
+
+.task-card p {
+    font-size: 14px;
+    /* Reducimos el tamaño del texto */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Ajustamos los botones */
+.task-card-buttons button,
+.edit {
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    /* Reducimos el tamaño del texto */
+    margin: 5px;
+}
+
+/* Cambiamos el color de fondo de los botones */
+.task-card-buttons button {
+    background-color: transparent;
+    /* Color más vibrante */
+}
+
+@media screen and (max-width: 430px) {
+    .task-page .add-task {
+        margin-left: 1rem;
+        /* Reducimos el margen izquierdo */
+        margin-right: 1rem;
+        /* Reducimos el margen derecho */
+        margin-top: 1rem;
+        /* Reducimos el margen superior */
+        padding: 8px 16px;
+        /* Reducimos el relleno */
+        font-size: 14px;
+        /* Reducimos el tamaño de fuente */
+    }
+
+    .task-page-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        /* Ajustamos el ancho de las columnas */
+        margin-left: 1rem;
+        /* Reducimos el margen izquierdo */
+        margin-right: 1rem;
+        /* Reducimos el margen derecho */
+        margin-top: 1rem;
+        /* Reducimos el margen superior */
+    }
+
+    .status-container {
+        width: 90%;
+        /* Establecemos el ancho al 90% del contenedor padre */
+    }
+
+    .task-card {
+        width: 90%;
+        /* Establecemos el ancho al 90% del contenedor padre */
+        font-size: 16px;
+        /* Ajustamos el tamaño de la fuente */
+    }
+
+    .task-card h1 {
+        font-size: 18px;
+        /* Ajustamos el tamaño del título */
+    }
+
+    .task-card p {
+        font-size: 14px;
+        /* Ajustamos el tamaño del texto */
+    }
+
+    .task-card-buttons button,
+    .edit {
+        font-size: 12px;
+        /* Reducimos el tamaño de la fuente */
+    }
+}
