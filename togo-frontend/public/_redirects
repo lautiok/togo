@@ -1,1 +1,4 @@
-/*    /index.html   200
+/aboutus     /about         301
+/tasks       /task          301
+/notes       /note          301
+/contact     /contacto      301
