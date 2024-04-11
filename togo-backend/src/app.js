@@ -9,7 +9,10 @@ const app = express();
 const port = process.env.PORT
 
 // middlewares
-app.use(cors())
+app.use(cors({
+    origin: process.env.CORS_URL,
+    credentials: true
+}))
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
