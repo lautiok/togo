@@ -5,7 +5,10 @@ import taskRoutes from "./routes/task.routes.js";
 import noteRoutes from "./routes/notes.routes.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import dotenv from "dotenv";
 const app = express();
+
+dotenv.config()
 const port = process.env.PORT
 
 // middlewares
