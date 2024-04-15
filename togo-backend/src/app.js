@@ -12,10 +12,7 @@ dotenv.config()
 const port = process.env.PORT 
 
 // middlewares
-app.use(cors({
-    origin: process.env.CORS_URL,
-    credentials: true
-}))
+app.use(cors())
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
