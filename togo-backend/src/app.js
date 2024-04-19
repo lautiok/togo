@@ -14,10 +14,8 @@ const port = process.env.PORT
 // middlewares
 app.use(cors(
     {
-        origin: process.env.CORS_URL,
         credentials: true,
-        optionsSuccessStatus: 200
-        
+        origin: process.env.CORS_URL
     }
 ))
 
